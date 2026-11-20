@@ -166,7 +166,7 @@ The model provides **actionable levers**, not just predictions.
 pip install -r requirements.txt
 ```
 
-Open `notebook.ipynb`. Some cells are computationally heavy, so avoid Run all. The slide report is in `report.pdf`.
+Open `notebook.ipynb`. Some cells are computationally heavy, so avoid Run all. The project report is in `report.pdf`.
 
 Disclaimer
 
