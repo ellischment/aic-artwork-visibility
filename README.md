@@ -1,4 +1,6 @@
 # Artwork Visibility Prediction  
+
+> Course project, Central University, December 2025. Not deployed. The scores below come from the notebook and have not been independently re-run.
 **Art Institute of Chicago · ML Final Project**
 
 ## Overview
@@ -96,7 +98,7 @@ This ensures the model predicts **future visibility**, not reconstructs the labe
 
 ## Models
 
-### Model A — Production model
+### Model A — Baseline model
 - **CatBoostClassifier**
 - Clean feature set
 - 5-fold cross-validation
@@ -104,7 +106,7 @@ This ensures the model predicts **future visibility**, not reconstructs the labe
   - **ROC-AUC ≈ 0.90**
   - **F1 ≈ 0.51**
 
-This is the **realistic performance** expected in deployment.
+These are the cross-validated scores reported in the notebook. The model has not been deployed.
 Lower F1 reflects class imbalance and conservative precision/recall trade-off.
 
 ---
@@ -158,7 +160,13 @@ Lower F1 reflects class imbalance and conservative precision/recall trade-off.
 
 The model provides **actionable levers**, not just predictions.
 
-!!! Do not use “Run all” blindly — some stages are computationally heavy. !!!
+## Run
+
+```bash
+pip install -r requirements.txt
+```
+
+Open `notebook.ipynb`. Some cells are computationally heavy, so avoid Run all. The slide report is in `report.pdf`.
 
 Disclaimer
 

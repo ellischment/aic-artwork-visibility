@@ -1,0 +1,15 @@
+catboost
+category_encoders
+gdown
+geopandas
+lime
+matplotlib
+networkx
+numpy
+pandas
+scikit-learn
+scipy
+seaborn
+shap
+umap-learn
+wordcloud
